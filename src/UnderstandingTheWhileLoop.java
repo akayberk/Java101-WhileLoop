@@ -38,7 +38,7 @@ public class UnderstandingTheWhileLoop {
                                 isTrue = true;
                                 break;
                         }
-                        break;
+                        break; //kayip olan break
 
                     case "n":
                         System.out.println("As you wish, dude! Adios!");
