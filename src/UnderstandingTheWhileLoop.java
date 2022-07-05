@@ -32,12 +32,13 @@ public class UnderstandingTheWhileLoop {
                         String wannaTry = sc.nextLine().toLowerCase();
                         switch (wannaTry) {
                             case "y":
-                                isTrue = true;
-                                break;
-                            case "n":
                                 isTrue = false;
                                 break;
+                            case "n":
+                                isTrue = true;
+                                break;
                         }
+                        break;
 
                     case "n":
                         System.out.println("As you wish, dude! Adios!");
